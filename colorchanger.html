@@ -64,7 +64,6 @@
       for (let i = 0; i < 6; i++) {
         let random = Math.floor(Math.random() * num.length);
         result += num[random];
-        text += num[random];
         document.body.style.backgroundColor = result;
         document.getElementById("color").innerHTML = `#${result}`;
       }
